@@ -325,13 +325,6 @@ content:"액체나 기체가 물체를 위로 밀어 올리는 힘이다."
 },
 
 {
-title:"아르키메데스 원리",
-subject:"물리",
-category:"압력과 부력",
-content:"부력의 크기는 밀려난 유체의 무게와 같다."
-},
-
-{
 title:"밀도",
 subject:"물리",
 category:"압력과 부력",
