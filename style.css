@@ -388,3 +388,41 @@ select{
     background:#1e293b;
     color:white;
 }
+
+.hero-text{
+    margin-top:15px;
+    font-size:18px;
+    opacity:0.95;
+    line-height:1.6;
+}
+.site-stats{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.site-stats div{
+    background:white;
+    color:#2563eb;
+    padding:15px 25px;
+    border-radius:15px;
+    font-weight:bold;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.dark .site-stats div{
+    background:#1e293b;
+    color:white;
+}
+
+.site-stats div{
+    min-width:120px;
+    text-align:center;
+    transition:0.2s;
+}
+
+.site-stats div:hover{
+    transform:translateY(-5px);
+}
